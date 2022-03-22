@@ -11,15 +11,6 @@ $(OUTPUT_DIRECTORY)/nrf52840_xxaa.out: \
 
 # Source files common to all targets
 SRC_FILES += \
-  $(PROJ_DIR)/src/log.c \
-  $(PROJ_DIR)/src/gpio.c \
-  $(PROJ_DIR)/src/pwm.c \
-  $(PROJ_DIR)/src/gpio_te.c \
-  $(PROJ_DIR)/src/macro.c \
-  $(PROJ_DIR)/src/color.c \
-  $(PROJ_DIR)/src/nvmc.c \
-  $(PROJ_DIR)/src/cli_cmd.c \
-  $(PROJ_DIR)/src/cli_usb.c \
   $(SDK_ROOT)/modules/nrfx/soc/nrfx_atomic.c \
   $(SDK_ROOT)/modules/nrfx/mdk/system_nrf52840.c \
   $(SDK_ROOT)/modules/nrfx/mdk/gcc_startup_nrf52840.S \

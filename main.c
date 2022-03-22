@@ -80,17 +80,6 @@
 #include "nrf_log_default_backends.h"
 #include "nrf_log_backend_usb.h"
 
-#include "macro.h"
-#include "log.h"
-#include "gpio.h"
-#include "gpio_te.h"
-#include "pwm.h"
-#include "color.h"
-#include "nvmc.h"
-#include "cli_usb.h"
-#include "cli_cmd.h"
-//#include "estc_ble.h"
-
 #define FIRST_NAME                      "Pavel "
 #define LAST_NAME                       "Pershin "
 #define MIDDLE_NAME                     "Viktorovich "
